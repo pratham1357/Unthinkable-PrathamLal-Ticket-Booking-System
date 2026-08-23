@@ -8,8 +8,8 @@ A full-stack ticket booking platform for movies and concerts — real-time seat 
 
 | | URL |
 |---|---|
-| Frontend | _add your Vercel URL here after deploying_ |
-| Backend API | _add your Render URL here after deploying_ |
+| Frontend | [ https://unthinkable-pratham-lal-ticket-book.vercel.app/ |
+| Backend API | https://unthinkable-prathamlal-ticket-booking.onrender.com |
 
 ## Tech Stack
 
