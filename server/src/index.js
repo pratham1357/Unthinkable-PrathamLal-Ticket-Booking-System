@@ -13,7 +13,7 @@ app.use('/api/auth', require('./routes/auth'));
 app.use('/api/events', require('./routes/events'));
 app.use('/api/bookings', require('./routes/bookings'));
 app.use('/api', require('./routes/waitlist'));
-app.use('/api', require('./routes/organiser'));
+app.use('/api', require('./routes/organizer'));
 app.use('/api', require('./routes/admin'));
 
 app.get('/api/health', (req, res) => res.json({ status: 'ok', time: new Date() }));

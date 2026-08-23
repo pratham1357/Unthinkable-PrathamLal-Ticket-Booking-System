@@ -44,13 +44,6 @@ export default function Login() {
           {loading ? 'Signing in...' : 'Sign In'}
         </button>
 
-        <div style={{ marginTop: 20, padding: 16, background: 'var(--surface2)', borderRadius: 7, fontSize: 12, color: 'var(--text2)' }}>
-          <strong style={{ color: 'var(--text)' }}>Demo accounts:</strong><br />
-          customer@example.com / customer123<br />
-          organiser@example.com / organiser123<br />
-          admin@example.com / admin123
-        </div>
-
         <p style={{ textAlign: 'center', marginTop: 20, fontSize: 14, color: 'var(--text2)' }}>
           No account? <Link to="/register">Create one</Link>
         </p>
